@@ -1,0 +1,10 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/.vs/MyAPP/copilot-chat/fcbc73b5/sessions
+/.vs/MyAPP/CopilotIndices/17.13.444.19527
+/.vs/MyAPP/FileContentIndex
+/.vs/MyAPP/v16/ipch/AutoPCH
+/.vs/MyAPP/v17
+/MyAPP/x64/Debug/MyAPP.tlog/MyAPP.write.1u.tlog
