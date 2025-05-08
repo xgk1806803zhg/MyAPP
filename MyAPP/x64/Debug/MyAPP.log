@@ -1,7 +1,0 @@
-﻿   Qt/MSBuild: 3.3.1.1
-   Qt: 5.12.9
-  MyAPP.cpp
-  main.cpp
-  qrc_MyAPP.cpp
-  moc_MyAPP.cpp
-  MyAPP.vcxproj -> D:\codeProject\newQtCode\MyAPP\x64\Debug\MyAPP.exe
