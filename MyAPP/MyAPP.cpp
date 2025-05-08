@@ -4,8 +4,10 @@ MyAPP::MyAPP(QWidget *parent)
     : QWidget(parent)
 {
     ui.setupUi(this);
-    int haigen = 1;
+    this->setLayout(ui.verticalLayout);
 }
 
 MyAPP::~MyAPP()
-{}
+{
+      
+}

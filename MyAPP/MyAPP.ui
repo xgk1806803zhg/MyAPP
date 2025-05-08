@@ -1,10 +1,8 @@
-<UI version="4.0" >
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
  <class>MyAPPClass</class>
- <widget class="QWidget" name="MyAPPClass" >
-  <property name="objectName" >
-   <string notr="true">MyAPPClass</string>
-  </property>
-  <property name="geometry" >
+ <widget class="QWidget" name="MyAPPClass">
+  <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
@@ -12,14 +10,24 @@
     <height>400</height>
    </rect>
   </property>
-  <property name="windowTitle" >
+  <property name="windowTitle">
    <string>MyAPP</string>
-  </property>$centralwidget$
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>40</y>
+     <width>331</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout"/>
+  </widget>
  </widget>
- <layoutDefault spacing="6" margin="11" />
- <pixmapfunction></pixmapfunction>
+ <layoutdefault spacing="6" margin="11"/>
  <resources>
-   <include location="MyAPP.qrc"/>
+  <include location="MyAPP.qrc"/>
  </resources>
  <connections/>
-</UI>
+</ui>

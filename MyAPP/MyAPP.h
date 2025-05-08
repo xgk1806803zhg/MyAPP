@@ -8,7 +8,7 @@ class MyAPP : public QWidget
     Q_OBJECT
 
 public:
-    MyAPP(QWidget *parent = nullptr);
+    MyAPP(QWidget *parent = nullptr); 
     ~MyAPP();
 
 private:
