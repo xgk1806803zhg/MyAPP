@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'AlgorithmicRegion.ui'
 **
-** Created by: Qt User Interface Compiler version 5.12.9
+** Created by: Qt User Interface Compiler version 5.14.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -32,7 +32,7 @@ public:
 
     void retranslateUi(QWidget *AlgorithmicRegionClass)
     {
-        AlgorithmicRegionClass->setWindowTitle(QApplication::translate("AlgorithmicRegionClass", "AlgorithmicRegion", nullptr));
+        AlgorithmicRegionClass->setWindowTitle(QCoreApplication::translate("AlgorithmicRegionClass", "AlgorithmicRegion", nullptr));
     } // retranslateUi
 
 };

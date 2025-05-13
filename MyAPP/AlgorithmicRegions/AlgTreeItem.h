@@ -2,7 +2,7 @@
 #include <QObject>
 #include <QTreeWidgetItem>
 
-class BaseTreeItem : public QTreeWidgetItem , public QObject
+class BaseTreeItem : public QObject, public QTreeWidgetItem
 {
 	Q_OBJECT
 public:
@@ -19,6 +19,7 @@ protected:
 
 class AlgTitleTreeItem : public BaseTreeItem
 {
+	
 public:
 	AlgTitleTreeItem(BaseTreeItem* parent = nullptr);
 	~AlgTitleTreeItem();
@@ -30,6 +31,8 @@ public:
 
 class AlgContentTreeItem : public BaseTreeItem
 {
+	
+public:
 	AlgContentTreeItem(BaseTreeItem* parent = nullptr);
 	~AlgContentTreeItem();
 	

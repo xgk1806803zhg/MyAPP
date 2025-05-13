@@ -10,7 +10,8 @@ class MyAPP : public QWidget
 public:
     MyAPP(QWidget *parent = nullptr); 
     ~MyAPP();
-
+ 
 private:
     Ui::MyAPPClass ui;
 };
+ 

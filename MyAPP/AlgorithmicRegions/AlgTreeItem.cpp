@@ -16,6 +16,7 @@ BaseTreeItem::~BaseTreeItem()
 
 AlgTitleTreeItem::AlgTitleTreeItem(BaseTreeItem* parent)
 {
+
 }
 
 AlgTitleTreeItem::~AlgTitleTreeItem()
@@ -37,7 +38,9 @@ void AlgTitleTreeItem::setContent(int column, QString content)
 
 AlgContentTreeItem::AlgContentTreeItem(BaseTreeItem* parent)
 {
-
+	// 设置树节点的类型
+	//setFlags(flags() | Qt::ItemIsEnabled);
+	this->setData(0, Qt::UserRole, true);
 }
 
 AlgContentTreeItem::~AlgContentTreeItem()
@@ -46,7 +49,6 @@ AlgContentTreeItem::~AlgContentTreeItem()
 
 void AlgContentTreeItem::setContent(int column, QString content)
 {
-	column = 1;
 	setText(column, content);
 	// 设置提示信息
 	setToolTip(column, content);

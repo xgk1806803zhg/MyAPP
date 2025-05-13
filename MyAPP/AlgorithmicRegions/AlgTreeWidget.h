@@ -15,5 +15,9 @@ public:
 
 	// Ìí¼ÓÊ÷½Úµã
 	void addItem(int column, const QString& text, const QString& toolTip = QString());
+protected:
+	void startDrag(Qt::DropActions supportedActions);
 
+private:
+	AlgTitleTreeItem* m_titleItem;
 };

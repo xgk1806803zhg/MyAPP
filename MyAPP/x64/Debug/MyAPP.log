@@ -1,7 +1,10 @@
 ﻿   Qt/MSBuild: 3.3.1.1
-   Qt: 5.12.9
+   Qt: 5.14.2
+  moc AlgorithmicRegions\AlgTreeItem.h
+  moc AlgorithmicRegions\AlgTreeWidget.h
+  AlgTreeItem.cpp
+  AlgTreeWidget.cpp
   MyAPP.cpp
-  main.cpp
-  qrc_MyAPP.cpp
-  moc_MyAPP.cpp
+  moc_AlgTreeItem.cpp
+  moc_AlgTreeWidget.cpp
   MyAPP.vcxproj -> D:\codeProject\newQtCode\MyAPP\x64\Debug\MyAPP.exe
